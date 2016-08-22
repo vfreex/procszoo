@@ -9,4 +9,4 @@ python:
 install:
  - pip install .
 # command to run tests
-script: make
+script: make && for f in tests/*.py; do "$f"; done
