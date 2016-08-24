@@ -1,6 +1,7 @@
 %global srcname procszoo
 %global debug_package %{nil}
-%global version %(tr -d '\n' < VERSION)
+%global version 0.97.2
+#%global version %(tr -d '\n' < VERSION)
 %global release 1
 %global sum Python module to operate Linux namespaces
 %global desc Procszoo aims to provide you a simple but complete tool and you can use it \
