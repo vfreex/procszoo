@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+case "$1" in
+remove)
+update-alternatives --remove richard_parker /usr/bin/richard_parker-3
+;;
+esac
